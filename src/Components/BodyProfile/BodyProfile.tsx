@@ -11,11 +11,11 @@ const BodyProfile = () => {
       </div>
 
       <div className={styles.redSocial}>
-        <img className={styles.redSocialLogo} src="/img/facebook.svg" alt="facebook" />
-        <img className={styles.redSocialLogo} src="/img/linkedin.svg" alt="linkedin" />
-        <img className={styles.redSocialLogo} src="/img/twitter.svg" alt="twitter" />
-        <img className={styles.redSocialLogo} src="/img/instagram.svg" alt="instagram" />
-        <img className={styles.redSocialLogo} src="/img/dribble.svg" alt="dribble" />
+        <img className={styles.redSocialLogo} src="img/facebook.svg" alt="facebook" />
+        <img className={styles.redSocialLogo} src="img/linkedin.svg" alt="linkedin" />
+        <img className={styles.redSocialLogo} src="img/twitter.svg" alt="twitter" />
+        <img className={styles.redSocialLogo} src="img/instagram.svg" alt="instagram" />
+        <img className={styles.redSocialLogo} src="img/dribble.svg" alt="dribble" />
       </div>
 
       <div className={styles.aboutUser}>
