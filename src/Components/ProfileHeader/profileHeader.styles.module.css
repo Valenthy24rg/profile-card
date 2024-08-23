@@ -1,0 +1,48 @@
+.headerContainer {
+  position: relative;
+  width: 100%;
+
+  & .firstVector {
+    position: absolute;
+    top: 0;
+    right: 0;
+    height: 120px;
+    z-index: 1;
+  }
+
+  & .secondVector {
+    position: absolute;
+    top: 65px;
+    left: 0;
+    height: 144px;
+    z-index: 1;
+  }
+
+  & .thirdVector {
+    position: absolute;
+    top: 65px;
+    right: 0;
+    height: 146.6px;
+  }
+  & .fourthVector {
+    position: absolute;
+    top: 43px;
+    right: -3px;
+    height: 167px;
+    z-index: 1;
+  }
+
+  & .userImage {
+    position: absolute;
+    z-index: 11;
+    top: -8px;
+    right: 135px;
+    height: 160px;
+    will-change: filter;
+    transition: filter 300ms;
+
+    &:hover {
+      filter: drop-shadow(0 0 2em #e03f8c);
+    }
+  }
+}

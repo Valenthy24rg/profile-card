@@ -1,0 +1,28 @@
+.footerContainer {
+  display: flex;
+  position: relative;
+  justify-content: center;
+
+  .button {
+    position: absolute;
+    top: 450px;
+
+    & button {
+      margin: 20px;
+      width: 130px;
+      padding: 10px;
+      border-radius: 20px;
+      border: 1px solid #b8b8b8;
+      background: none;
+      font-weight: 600;
+      font-family: "Roboto", sans-serif;
+      color: #767676;
+
+      &:hover {
+        border: none;
+        background: #df3f8c;
+        color: #fff;
+      }
+    }
+  }
+}
