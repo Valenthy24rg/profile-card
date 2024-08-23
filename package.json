@@ -3,14 +3,14 @@
   "private": true,
   "version": "0.0.0",
   "configurations": [
-        {
-            "type": "chrome",
-            "request": "launch",
-            "name": "Launch Chrome against localhost",
-            "url": "http://localhost:3000",
-            "webRoot": "${workspaceFolder}"
-        }
-    ],
+    {
+      "type": "chrome",
+      "request": "launch",
+      "name": "Launch Chrome against localhost",
+      "url": "http://localhost:3000",
+      "webRoot": "${workspaceFolder}"
+    }
+  ],
   "type": "module",
   "scripts": {
     "dev": "vite --port 3000 --open",
@@ -18,7 +18,8 @@
     "lint": "eslint .",
     "preview": "vite preview"
   },
-    "dependencies": {
+  "dependencies": {
+    "gh-pages": "^6.1.1",
     "react": "^18.3.1",
     "react-dom": "^18.3.1"
   },
